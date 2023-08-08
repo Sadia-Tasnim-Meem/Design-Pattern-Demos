@@ -8,7 +8,7 @@ public class JsonToXmlAdapter implements IAdapter{
     }
 
     @Override
-    public XML convert(JSON json) {
+    public XML convert(FileType json) {
         return this.json.convertToXML();
     }
 }
