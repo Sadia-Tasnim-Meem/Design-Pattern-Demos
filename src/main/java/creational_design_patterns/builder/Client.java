@@ -8,5 +8,11 @@ public class Client {
         System.out.println(pizza.isCheese());
         System.out.println(pizza.isOnions());
         System.out.println(pizza.isMushrooms());
+
+        Burger burger = new Burger.BurgerBuilder("medium")
+                .cheese(true).meats(false).build();
+
+        System.out.println(burger.isCheese());
+        System.out.println(burger.isMeat());
     }
 }
